@@ -1,0 +1,13 @@
+*.out
+*.log
+*.aux
+*.dvi
+*.toc
+*.lof
+*.lot
+latex/
+html/
+log-debug/
+tone_player/
+SPtone_player/
+sim-mouse.out

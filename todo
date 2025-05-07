@@ -1,0 +1,16 @@
+- get x,y coordinate (xdotool?)
+
+- Workaround for absolute coordinates
+- detect hardware candidates
+- detection of device in use
+
+- 
+
+
+notes
+//compile single file
+gcc -o input input.c
+
+// find input device
+ls dev/input
+udevadm info --query=all --name=/dev/input/mice    
